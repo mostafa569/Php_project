@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form-col {
+  height: 80vh;
+}
+
+.desc-col {
+  height: 80vh;
+}
+
+.container {
+  height: 80vh;
+}
+
+.carousel .carousel-caption {
+  bottom: 13rem !important;
+}
+
+.carousel .carousel-indicators {
+  bottom: 10rem !important;
+}
+
+.carousel h5,
+.carousel p {
+  -webkit-text-stroke: 0.1px black;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+i {
+  color: rgba(255,255,255,0.6);
+}
+
+.title {
+  color: rgba(255,255,255,0.6);
+  top: 1.1rem;
+  left: 7rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}

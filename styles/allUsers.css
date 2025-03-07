@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #34495e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2d3946;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+th {
+    background-color: #34495e;
+    color: white;
+    border: none;
+}
+
+tr {
+    background-color: #ecf0f1;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.edit {
+    text-decoration: none;
+    color: #34495e;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.delete {
+    text-decoration: none;
+    color: #e74c3c;
+    font-size: 18px;
+}
+
+.edit:hover {
+    color: #2d3946;
+}
+
+.delete:hover {
+    color:#c0392b;
+}
